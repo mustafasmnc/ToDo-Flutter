@@ -196,7 +196,6 @@ class _MyHomePageState extends State<MyHomePage>
 
   deleteNote(String noteID){
     print(noteID);
-    allDates.removeWhere((note) => note['id']==noteID);
   } 
 
   @override
